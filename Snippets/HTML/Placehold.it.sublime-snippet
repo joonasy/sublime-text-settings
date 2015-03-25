@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[<img src="http://placehold.it/${1:300}x${2:300}/${3:cccccc}/${4:969696}" />$5]]></content>
+  <tabTrigger>placeholdit</tabTrigger>
+</snippet>

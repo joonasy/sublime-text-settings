@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Mauris sed tempor leo. Nam et mi nec neque mo*llis tincidunt at sed lorem.* Maecenas erat purus, volutpat volutpat metus *ac, consectetur tincidunt ips*um. Vivamus consectetur dapibus lectus, nec preti*um odio lobortis ut. Nullam p*lacerat rutrum lacus.
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>loremc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger
+    <scope>text.html</scope> -->
+</snippet>

@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[<img src="http://lorempixel.com/${1:g/}${2:200}/${3:400}" />$4]]></content>
+  <tabTrigger>lorempixel</tabTrigger>
+</snippet>

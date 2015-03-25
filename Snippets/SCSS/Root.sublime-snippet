@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[#{\$root}__$0]]></content>
+  <tabTrigger>root</tabTrigger>
+</snippet>

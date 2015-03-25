@@ -1,0 +1,117 @@
+{
+	"Seti_ClosedFolder_dots": true,
+	"Seti_ClosedFolder_remove": true,
+	"Seti_SB_big": true,
+	"Seti_SB_bright": true,
+	"Seti_no_bar_undertabs": true,
+	"Seti_sb_tree_miny": true,
+	"Seti_tabs_small": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.ai",
+		"*.woff",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.psd",
+		"*.zip",
+		"*.scssc",
+		"*.svg",
+		".tmp/",
+		"trash/",
+		".trash/",
+		"_trash/",
+		"wp-admin/",
+		"wp-includes/",
+		"node_modules/",
+		"bower_components/",
+		"_proto/",
+		"dist/",
+		"roots/",
+		"automattic/",
+		"content/plugins/",
+		"mu-plugins/",
+		"_design/",
+		"_work/",
+		"boilerplates/examples"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": true,
+	"fade_fold_buttons": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"*.scssc"
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		"bin",
+		".sass-cache",
+		"tmp",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_design",
+		"node_modules"
+	],
+	"font_face": "Andale Mono",
+	"font_size": 15.0,
+	"gutter": true,
+	"hbs/handlebars":
+	{
+		"extends": "html"
+	},
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"itg_sidebar_tree_medium": true,
+	"itg_small_tabs": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 0,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "disabled",
+	"remember_open_files": true,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"spell_check": false,
+	"status_bar_brighter": true,
+	"tab_size": 2,
+	"tabs_small": true,
+	"theme": "Spacegray.sublime-theme",
+	"theme_asphalt_hide_sidebar_icons": true,
+	"theme_asphalt_tabs_small": true,
+	"trailing_spaces_include_current_line": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}

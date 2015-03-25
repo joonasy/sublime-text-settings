@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+@include breakpoint('${1:navTransform}') {
+  $2
+}]]></content>
+  <tabTrigger>break</tabTrigger>
+</snippet>

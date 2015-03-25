@@ -1,0 +1,109 @@
+[
+  /* Wrap */
+  {
+    "keys"      :   ["alt+shift+w"],
+    "command"   :   "insert_snippet",
+    "args": {
+     "contents": "<${1:p}>${0:$SELECTION}</${1}>"
+    }
+  },
+
+  /* Titlecase */
+  { "keys": ["super+k", "super+t"], "command": "title_case" },
+
+  /* Bookmarks */
+  { "keys": ["super+down"], "command": "next_bookmark" },
+  { "keys": ["super+up"], "command": "prev_bookmark" },
+  { "keys": ["super+b"], "command": "toggle_bookmark" },
+  { "keys": ["super+alt+shift+b"], "command": "clear_bookmarks" },
+  { "keys": ["super+alt+b"], "command": "select_all_bookmarks" },
+
+  /* Superpaste */
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+
+  /* Comments */
+  { "keys": ["super+'"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+alt+'"], "command": "toggle_comment", "args": { "block": true } },
+
+  /* Sidebar */
+  { "keys": ["super+j"], "command": "toggle_side_bar" },
+
+  /* Console */
+  { "keys": ["§"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+  /* Gutter */
+  { "keys": ["super+ö"], "command": "toggle_setting", "args": {"setting": "gutter"} },
+
+  /* Reindent */
+  {"keys": ["ctrl+r"], "command": "reindent" , "args": {"single_line": false}},
+
+  /* Open finder */
+  {"keys": ["ctrl+shift+super+f"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}},
+
+  /* Word wrap */
+  { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+
+  /* SFTP */
+  { "keys": ["super+ctrl+u","super+ctrl+t"], "command": "sftp_sync_down" },
+
+  /* Markdown preview */
+  { "keys": ["super+m"], "command": "markdown_preview", "args": {"target": null, "parser":"github"}},
+  { "keys": ["super+alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"}},
+
+  /* Markdown editing */
+   // Bold on Ctrl + B
+   { "keys": ["super+b"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/Make Word Bold.sublime-macro"}, "context":
+       [
+           { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+           { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+       ]
+   },
+   { "keys": ["supers+b"], "command": "insert_snippet", "args": {"contents": "__$1__"}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
+        { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
+        { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
+        { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+    ]
+   },
+   // italics on CMD + I
+   { "keys": ["super+i"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/Make Word Italic.sublime-macro"}, "context":
+       [
+           { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+           { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+       ]
+   },
+   { "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "_$0_"}, "context":
+    [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
+        { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
+        { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
+        { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+    ]
+   },
+  /* Advanced new file defaults */
+  { "keys": ["super+alt+n"], "command": "advanced_new_file"},
+  { "keys": ["shift+super+alt+n"], "command": "advanced_new_file", "args": {"is_python": true}},
+  {
+  "keys": ["tab"],
+  "command": "insert",
+  "args": {"characters": "\t"},
+  "context": [{
+    "key": "setting.anf_panel"
+  }]
+  },
+
+  /* Advanced new file: rename current view */
+  {"keys": ["alt+shift+n"], "command": "advanced_new_file", "args": {"rename": true}},
+
+  /* AlignTab */
+  {
+      "keys": ["super+shift+a"], "command": "align_tab",
+      "args" : {"user_input" : ":/f"}
+  }
+]
