@@ -68,11 +68,10 @@
 		".git",
 		".hg",
 		"CVS",
-		"_design",
-		"node_modules"
+		"_design"
 	],
-	"font_face": "Andale Mono",
-	"font_size": 14.0,
+	"font_face": "Fira Code",
+	"font_size": 14,
 	"gutter": true,
 	"hbs/handlebars":
 	{
@@ -82,8 +81,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
