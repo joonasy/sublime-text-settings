@@ -1,0 +1,4 @@
+<snippet>
+  <content><![CDATA[rem(${1:\$baseSpace}$2)$3]]></content>
+  <tabTrigger>rem</tabTrigger>
+</snippet>
