@@ -1,8 +1,11 @@
-# My sublime text settings
+# Sublime Text Settings
+
+My Sublime Text 3 settings ( `Packages/User` folder)
 
 ## Required packages
 
 * Advanced new file
+* Babel
 * DockBlock
 * Editorconfig
 * Color Highlighter
@@ -10,11 +13,8 @@
 * Git
 * Gist
 * Handlebars
-* jQuery
-* LESS
 * Markdown preview
 * Markdown editing
-* Package control
 * Sass
-* Theme itg flat
-* Theme Spacegray
+* Sidebar enhancements
+* Theme Oceanix Next

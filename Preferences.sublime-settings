@@ -1,11 +1,4 @@
 {
-	"Seti_ClosedFolder_dots": true,
-	"Seti_ClosedFolder_remove": true,
-	"Seti_SB_big": true,
-	"Seti_SB_bright": true,
-	"Seti_no_bar_undertabs": true,
-	"Seti_sb_tree_miny": true,
-	"Seti_tabs_small": true,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_indent": true,
@@ -43,17 +36,25 @@
 		"automattic/",
 		"content/plugins/",
 		"mu-plugins/",
-		"_design/",
-		"_work/",
-		"boilerplates/examples"
+		"Assets/vendors/",
+		"wp/wp",
+		"wp/wp-content",
+		"wp/vendor",
+		"typo3/typo3conf",
+		"typo3/typo3temp",
+		"Resources/Public/Assets",
+		"typo3/vendor",
+		"typo3/uploads",
+		"typo3/fileadmin",
+		"wp-content/"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
-	//"color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
-	//"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
 	"fade_fold_buttons": true,
 	"file_exclude_patterns":
 	[
@@ -63,17 +64,15 @@
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
-		"bin",
 		".sass-cache",
-		"tmp",
 		".svn",
 		".git",
 		".hg",
 		"CVS",
 		"_design"
 	],
-	"font_face": "Fira Code",
-	"font_size": 14,
+	"font_face": "Operator Mono",
+	"font_size": 15,
 	"gutter": true,
 	"hbs/handlebars":
 	{
@@ -83,7 +82,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Unicode Character Highlighter",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -96,12 +95,6 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"margin": 0,
-	"material_theme_disable_folder_animation": true,
-	"material_theme_disable_tree_indicator": true,
-	"material_theme_panel_separator": true,
-	"material_theme_small_tab": true,
-	"material_theme_small_statusbar": true,
-	"material_theme_tabs_separator": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "disabled",
 	"remember_open_files": true,
@@ -114,9 +107,7 @@
 	"status_bar_brighter": true,
 	"tab_size": 2,
 	"tabs_small": true,
-	"theme": "Spacegray.sublime-theme",
-	//"theme": "Broceanic.sublime-theme",
-	//"theme": "Material-Theme.sublime-theme",
+	"theme": "Oceanic Next.sublime-theme",
 	"theme_asphalt_hide_sidebar_icons": true,
 	"theme_asphalt_tabs_small": true,
 	"trailing_spaces_include_current_line": true,

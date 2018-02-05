@@ -3,5 +3,7 @@ Package Control.merged-ca-bundle
 Package Control.sublime-settings
 Package Control.system-ca-bundle
 Package Control.user-ca-bundle
-Package Control.cache/01524fae79697630d0454ba3fabd9414
-Package Control.cache/01524fae79697630d0454ba3fabd9414.info
+Package Control.cache
+Color Highlighter
+.DS_Store
+SublimeLinter

@@ -23,11 +23,11 @@
   { "keys": ["super+shift+v"], "command": "paste" },
 
   /* Comments */
-  { "keys": ["super+'"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["super+alt+'"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["super+ä"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+alt+ä"], "command": "toggle_comment", "args": { "block": true } },
 
   /* Sidebar */
-  { "keys": ["super+j"], "command": "toggle_side_bar" },
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
 
   /* Console */
   { "keys": ["§"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
